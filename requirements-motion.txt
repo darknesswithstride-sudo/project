@@ -1,0 +1,3 @@
+# Optional free local video pose capture; install into OmniForge's .venv.
+opencv-python>=4.9,<5.0
+mediapipe>=0.10.14,<0.11

@@ -1,0 +1,11 @@
+OmniForge AI v4.7.0 — Project Delivery Pipeline
+
+Automated checks:
+- Python compileall: PASS
+- Pytest: PASS — 89 passed
+- Delivery pipeline tests: asset staging, project boundary checks, editor-script generation, QA-plan generation
+- Unreal C++ compilation/editor launch: NOT RUN in this environment
+- Unreal asset import/level visual inspection: NOT RUN in this environment
+- Packaged Windows launch test: NOT RUN in this environment
+
+See PROJECT_DELIVERY_4.7.md for use and limitations.

@@ -1,0 +1,4 @@
+OmniForge AI v4.7.0 — Project Delivery Pipeline
+Local-first AI development and 3D production toolkit.
+Added: Unreal project delivery orchestrator, staged asset intake, editor import/level blockout script, QA test plan, Windows package runner and honest delivery status report.
+No paid API calls are required by the delivery pipeline. Unreal Engine, editor Python support, compiler toolchain and source assets are external prerequisites.
