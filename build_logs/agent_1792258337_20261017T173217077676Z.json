@@ -1,0 +1,23 @@
+{
+  "engine_version": "1.0",
+  "task_id": "20261017T173217077676Z",
+  "task": "Repair this generated Unreal C++ project so it compiles. Keep changes limited to this generated project. Use the following compiler/build evidence, make the smallest targeted fix, and verify with the Unreal build profile. Do not replace gameplay systems with placeholders.\nBUILD EVIDENCE: {\"ok\": false, \"exit_code\": 1, \"duration_seconds\": 0.04, \"command_profile\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe /d /s /c\", \"output\": \"'\\\\\\\"C:\\\\Program Files\\\\Epic Games\\\\UE_5.8\\\\Engine\\\\Build\\\\BatchFiles\\\\Build.bat\\\\\\\"' is not recognized as an internal or external command,\\noperable program or batch file.\\n\", \"log_file\": \"build_1792258337.log\"}",
+  "project_path": "OmniForgeGames/quality",
+  "verification_profile": "unreal_build",
+  "apply_changes": true,
+  "free_local_only": true,
+  "paid_api_calls": false,
+  "steps": [],
+  "status": "error_rolled_back",
+  "model": {
+    "name": "qwen2.5-coder:7b",
+    "selection_reason": "no model inventory available; using configured name and allowing Ollama to report the error",
+    "local_inventory_reachable": true
+  },
+  "context": {
+    "files_considered": 20,
+    "files_in_context": 18,
+    "context_chars": 20107
+  },
+  "error": "Client error '404 Not Found' for url 'http://127.0.0.1:11434/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+}

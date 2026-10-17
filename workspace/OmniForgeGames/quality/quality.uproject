@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "Games",
+  "Description": "OmniForge generated zombie survival prototype",
+  "Modules": [
+    {
+      "Name": "quality",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

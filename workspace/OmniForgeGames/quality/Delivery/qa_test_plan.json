@@ -1,0 +1,43 @@
+{
+  "project": "quality",
+  "created_at": 1792258337.2876525,
+  "tests": [
+    {
+      "id": "compile_editor_target",
+      "kind": "engine_build",
+      "pass_condition": "Unreal build tool exits 0 for Editor Development target",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "editor_import_and_level",
+      "kind": "editor_python",
+      "pass_condition": "editor_pipeline_result.json has level_created=true and errors=[]",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "level_visual_review",
+      "kind": "visual",
+      "pass_condition": "Capture editor/gameplay screenshots; check missing assets, scale, collisions, lighting and player start",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "player_controls",
+      "kind": "functional",
+      "pass_condition": "WASD/mouse, attack, harvest, build, sprint, save/load work in PIE",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "gameplay_loop",
+      "kind": "functional",
+      "pass_condition": "Zombie pursuit/damage, night waves and survival loop behave as specified",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "packaged_smoke_test",
+      "kind": "package",
+      "pass_condition": "Windows package launches and a short smoke test completes",
+      "status": "NOT_RUN"
+    }
+  ],
+  "status": "PLAN_GENERATED"
+}
